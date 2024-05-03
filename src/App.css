@@ -120,7 +120,7 @@
 }
 .first{
   margin-top: 13px;
-  width: 430px;
+  width: 410px;
   /* border: 1px solid black; */
   padding: 15px;
   background-color: #FFFFFF;
@@ -130,7 +130,7 @@
 }
 .same{
   /* padding: 10px; */
-  width: 400px;
+  width: 380px;
   /* border:  2px solid red; */
   display: flex;
   justify-content: space-between;
@@ -289,7 +289,7 @@
 
 .videoandprofile{
   display: flex;
-  width: 720px;
+  width: 710px;
   gap: 15px;
   background-color: #FFFFFF;
   padding: 15px;
@@ -430,7 +430,7 @@ li{
   /* border: 2px solid red; */
   margin-top: 13px;
   display: flex;
-  width: 720px;
+  width: 710px;
   gap: 15px;
   background-color: #FFFFFF;
   /* padding: 15px; */

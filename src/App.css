@@ -105,15 +105,22 @@
 .section{
   display: flex;
   /* align-items: center; */
+  /* border: 2px solid red; */
+  /* flex-wrap: wrap; */
   gap: 45px;
+}
+a{
+  font-size: small;
 }
 
 .toreview{
   display: flex;
+  /* border: 1px solid black; */
   gap: 20px;
 }
 .total-container{
   display: flex;
+  
   gap: 20px;
   /* border: 2px solid red; */
   /* width: 900px; */
@@ -121,7 +128,7 @@
 .first{
   margin-top: 13px;
   width: 410px;
-  /* border: 1px solid black; */
+ 
   padding: 15px;
   background-color: #FFFFFF;
   /* height: 100%; */

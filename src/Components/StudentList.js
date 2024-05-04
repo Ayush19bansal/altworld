@@ -41,7 +41,7 @@ return (
 
         <div className="same">
           <p>Assignment Link</p>
-          <p>jufuufuufuufufu</p>
+          <a href="/">https://altworld-zeta.vercel.app/</a>
         </div>
 
         <div className="same">

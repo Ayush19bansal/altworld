@@ -289,8 +289,8 @@
 
 .videoandprofile{
   display: flex;
-  width: 710px;
-  gap: 15px;
+  width: 730px;
+  gap: 25px;
   background-color: #FFFFFF;
   padding: 15px;
   /* border: 1px solid #991111; */
@@ -299,7 +299,7 @@
 }
 
 .video{
-  width: 40%;
+  width: 37%;
   /* border: 1px solid #7a11dc; */
 }
 .video img{
@@ -421,8 +421,9 @@ ol h3{
 }
 
 li{
-  margin-left: 5px;
-  font-size: small;
+  margin-left: 10px;
+  font-size: 10px;
+  padding: auto;
   margin-top: 15px;
 }
 
@@ -430,11 +431,45 @@ li{
   /* border: 2px solid red; */
   margin-top: 13px;
   display: flex;
-  width: 710px;
+  width: 730px;
   gap: 15px;
   background-color: #FFFFFF;
   /* padding: 15px; */
   /* border: 1px solid #991111; */
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.show {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.3em 0.8em 0.9em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  border: none;
+  letter-spacing: 0.05em;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.show  svg {
+  margin-right: 3px;
+  transform: rotate(30deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.show  span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.show:hover svg {
+  transform: translateX(5px) rotate(90deg);
+}
+
+.show:hover span {
+  transform: translateX(7px);
 }

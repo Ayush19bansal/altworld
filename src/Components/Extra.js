@@ -10,7 +10,7 @@ function Extra() {
      <div> <h3>Ayush Bansal</h3>
       <p className='email'>Bansalaashu7@gmail.com</p></div>
       <p className="marksss" style={{
-              color:  "#EEBB45" ,
+              color:  "green" ,
             }}>90%</p>
     </div>
   </div>
